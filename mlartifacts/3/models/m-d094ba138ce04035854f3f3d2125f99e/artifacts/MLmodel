@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Test/Artificial Intelligence/MLflow/mlflow-experiment-tracking/mlartifacts/3/models/m-d094ba138ce04035854f3f3d2125f99e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-d094ba138ce04035854f3f3d2125f99e
+model_size_bytes: 1993921
+model_uuid: m-d094ba138ce04035854f3f3d2125f99e
+prompts: null
+run_id: 95a20250587e49f1b9cbc942f684a2d0
+utc_time_created: '2026-10-31 18:55:25.684264'
